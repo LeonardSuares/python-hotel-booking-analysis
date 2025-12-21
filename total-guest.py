@@ -41,5 +41,6 @@ data['arrival_date'] = data['arrival_date_year'].astype(str)+'-'+data['arrival_d
 data['Total_guests'] = data['adults']+data['children']+data['babies']
 data_not_canceled = data[data['is_canceled']==0]
 guest_arrival_series = data_not_canceled.groupby(['arrival_date'])['Total_guests'].sum()
-guest_arrival_series.plot(figsize=(10,6))
+# guest_arrival_series.plot(figsize=(10,6))
+sns.displot(guest_arrival_series.values, kind='kde')
 plt.show()
