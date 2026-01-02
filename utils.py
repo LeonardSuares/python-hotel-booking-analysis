@@ -4,7 +4,7 @@ import streamlit as st
 
 @st.cache_data
 def load_and_clean_data():
-    # Path should be relative for Github portability
+    # Path should be relative for Github portabilities
     df = pd.read_csv("data/hotel_bookings.csv")
 
     # ETL: Remove invalid entries (zero guests)
