@@ -1,0 +1,16 @@
+# Data Manipulation
+pandas
+numpy
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Dashboard Framework
+streamlit
+
+# Utility
+# (Chart-studio is only needed if you are pushing to Plotly's cloud,
+# but for local Streamlit apps, it's safer to include to avoid import errors)
+chart-studio
