@@ -1,10 +1,10 @@
-# 🏨 Hotel Booking Operations Dashboard
+# Hotel Booking Operations Dashboard
 
 An interactive, data-driven web application built with **Streamlit** and **Plotly** to analyze hotel booking patterns, guest demographics, and revenue metrics. This project transforms raw CSV data into a strategic business intelligence tool for hotel management.
 
 ---
 
-## 🚀 Features
+## Features
 
 * **Reactive Global Filters:** Persistent Sidebar filters allow users to slice data by **Hotel Type** (City vs. Resort) across all application pages.
 * **Interactive Visualizations:** High-fidelity charts using **Plotly**, including:
@@ -16,7 +16,7 @@ An interactive, data-driven web application built with **Streamlit** and **Plotl
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Language:** `Python 3.x`
 * **Dashboarding:** `Streamlit`
@@ -26,7 +26,7 @@ An interactive, data-driven web application built with **Streamlit** and **Plotl
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Hotel-bookings-analysis/
